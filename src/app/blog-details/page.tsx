@@ -23,3 +23,10 @@ export default function BlogPage({ params }: { params: { id: string } }) {
     </div>
   );
 }
+
+// ✅ REQUIRED for dynamic route: [id]
+export async function generateStaticParams() {
+  return blogData.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
