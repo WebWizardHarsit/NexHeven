@@ -6,7 +6,8 @@ import ScrollToTop from "@/components/ScrollToTop";
 import { Inter } from "next/font/google";
 import "../styles/index.css";
 import { Providers } from "./providers";
-import { Toaster } from "react-hot-toast"; // ✅ import this
+import { Toaster } from "react-hot-toast";
+import ThemeScript from "@/components/Theme/ThemeScript";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -26,13 +27,12 @@ export default function RootLayout({
       </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
+        <ThemeScript /> {/* ✅ Ensure this loads before Providers */}
         <Providers>
           <Header />
           {children}
           <Footer />
           <ScrollToTop />
-
-          {/* ✅ Add Toaster component here */}
           <Toaster position="bottom-right" />
         </Providers>
       </body>
