@@ -24,10 +24,10 @@ export default function RootLayout({
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
           crossOrigin="anonymous"
         />
+        <ThemeScript /> {/* ✅ Moved here to run early */}
       </head>
 
       <body className={`bg-[#FCFCFC] dark:bg-black ${inter.className}`}>
-        <ThemeScript /> {/* ✅ Ensure this loads before Providers */}
         <Providers>
           <Header />
           {children}
