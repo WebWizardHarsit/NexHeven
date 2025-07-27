@@ -13,7 +13,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "NexHeven Portfolio",
-  description: "NexHeven Portfolio",
+  description: "Home",
   // other metadata
 };
 

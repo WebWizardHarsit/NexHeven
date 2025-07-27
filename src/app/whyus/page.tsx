@@ -4,8 +4,8 @@ import WhyUs from "@/components/WhyUS";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Why Us | Free Next.js Template for Startup and SaaS",
-  description: "Discover why our solution stands out — trusted by startups and SaaS businesses worldwide.",
+  title: "Why Us ",
+  description: "Discover why we are the right choice for your business. Learn about our unique approach, expertise, and commitment to excellence.",
   // other metadata
 };
 
