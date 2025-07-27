@@ -6,18 +6,10 @@ import blogData from "@/components/Blog/blogData";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import PricingComponent from "@/components/Pricing";
 
-import { Metadata } from "next";
-
 import Tilt from "react-parallax-tilt";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 import "swiper/css";
-
-export const metadata: Metadata = {
-  title: "Pricing Page ",
-  description: "This is Pricing Page for NexHeven Portfolio",
-  // other metadata
-};
 
 const Pricing = () => {
   const swiperRef = useRef<any>(null);
