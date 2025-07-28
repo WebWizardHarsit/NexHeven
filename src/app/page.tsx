@@ -12,7 +12,7 @@ import Pricing from "@/components/Pricing";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "NexHeven Portfolio",
+  title: "NexHeven",
   description: "Home",
   // other metadata
 };
