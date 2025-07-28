@@ -29,7 +29,7 @@ const NewsLatterBox = () => {
 
         <div>
           <h3 className="mb-1 text-lg font-semibold">📞 Call Us</h3>
-          <p>+91 7749997526</p>
+          <p>+91 99387 69590</p>
         </div>
 
         <div>

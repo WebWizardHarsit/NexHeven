@@ -122,7 +122,7 @@ const Footer = () => {
 
                   {/* Instagram */}
                   <a
-                    href="https://www.instagram.com/yourprofile"
+                    href="https://www.instagram.com/nexheven.tm?utm_source=qr&igsh=MW9mdzhwaHIxZWpsNw=="
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="Instagram"
@@ -153,10 +153,10 @@ const Footer = () => {
 
                   {/* X (Twitter) */}
                   <a
-                    href="https://twitter.com/yourhandle"
+                    href="https://x.com/NexHeven"
                     target="_blank"
                     rel="noopener noreferrer"
-                    aria-label="Twitter"
+                    aria-label="X (Twitter)"
                     className="text-body-color hover:text-primary dark:text-body-color-dark dark:hover:text-primary duration-300"
                   >
                     <svg
@@ -164,19 +164,9 @@ const Footer = () => {
                       height="20"
                       viewBox="0 0 24 24"
                       fill="currentColor"
+                      xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path
-                        d="M22.46 6c-.77.35-1.5.6-2.33.7a4.12 4.12 
-                      0 0 0 1.8-2.27c-.8.5-1.6.85-2.5 
-                      1.05a4.17 4.17 0 0 0-7.1 3.8A11.79 11.79 
-                      0 0 1 3.14 4.8a4.16 4.16 0 0 0 
-                      1.29 5.56 4.11 4.11 0 0 1-1.9-.5v.05a4.2 
-                      4.2 0 0 0 3.34 4.1 4.3 4.3 0 0 1-1.9.07 
-                      4.19 4.19 0 0 0 3.9 2.9A8.38 8.38 0 0 1 
-                      2 18.57a11.8 11.8 0 0 0 6.29 1.84c7.55 
-                      0 11.68-6.25 11.68-11.67 0-.18 0-.36-.02-.53A8.18 
-                      8.18 0 0 0 24 5.5a8.29 8.29 0 0 1-2.54.7z"
-                      />
+                      <path d="M17.53 3H21L14.85 10.06L22.38 21H16.36L11.45 14.5L5.86 21H2L8.58 13.39L1.38 3H7.54L11.95 9.03L17.53 3ZM16.4 19H18.2L7.72 5H5.8L16.4 19Z" />
                     </svg>
                   </a>
                 </div>
