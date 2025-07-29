@@ -73,7 +73,7 @@ const Footer = () => {
 
                 <div className="flex items-center">
                   {/* Facebook */}
-                  <a
+                  {/* <a
                     href="https://facebook.com/yourusername" // Replace with your Facebook profile link
                     target="_blank"
                     rel="noopener noreferrer"
@@ -88,7 +88,7 @@ const Footer = () => {
                     >
                       <path d="M22.675 0h-21.35C.6 0 0 .6 0 1.326v21.348C0 23.4.6 24 1.326 24H12.82V14.708h-3.2v-3.6h3.2V8.413c0-3.174 1.943-4.906 4.78-4.906 1.36 0 2.528.101 2.867.146v3.32h-1.966c-1.542 0-1.842.734-1.842 1.81v2.374h3.684l-.48 3.6h-3.204V24h6.275C23.4 24 24 23.4 24 22.674V1.326C24 .6 23.4 0 22.675 0z" />
                     </svg>
-                  </a>
+                  </a> */}
 
                   {/* LinkedIn */}
                   <a
